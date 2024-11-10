@@ -5,10 +5,10 @@ FROM openjdk:21-jdk-slim
 WORKDIR /app
 
 # Copiar el archivo Java al contenedor
-COPY HelloWorld.java /app
+COPY src/main/java/com/mycompany/cuartapagina/CuartaPagina.java /app
 
 # Compilar el archivo Java
-RUN javac HelloWorld.java
+RUN javac CuartaPagina.java
 
 # Comando para ejecutar el programa
-CMD ["java", "HelloWorld"]
+CMD ["java", "CuartaPagina"]
