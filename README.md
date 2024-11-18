@@ -1,16 +1,17 @@
-# "Hello World" Project in Java 🌍👨‍💻
+# "Hello World" Project in Spring Boot 🌍👨‍💻
 
-This is a simple Java project that demonstrates how to print "Hello World" to the console. 👋
+This is a simple Spring Boot project that demonstrates how to create a REST API endpoint returning "Hello World". 👋
 
 ## Description
 
-This project serves as a basic introduction to Java programming. The sole purpose of this project is to show how to set up a Java project and print a basic message to the console. 💻
+This project serves as a basic introduction to building web applications with Spring Boot. The goal is to show how to set up a Spring Boot project, create a REST controller, and run the application locally or on a server. 💻
 
 ## Requirements 📝
 
 To run this project, you need to have the following installed:
 
-- [Java JDK](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) (version 11 or higher) ☕
+- [Java JDK](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) (version 21) ☕
+- [Maven](https://maven.apache.org/) (version 3.8 or higher) 🛠️
 - A text editor or IDE (such as [IntelliJ IDEA](https://www.jetbrains.com/idea/) or [Eclipse](https://www.eclipse.org/)) 🔧
 
 ## Installation 🚀
@@ -38,7 +39,10 @@ To run this project, you need to have the following installed:
 
 ## Project Structure 📁
 
-- `HolaMundo.java`: The main file containing the source code for the application. 📝
+- `src/main/java/com/distribuida/cuartapagina`:
+  - `CuartaPaginaApplication.java`: Main class to bootstrap the Spring Boot application. 📝
+  - `controller/CuartaPaginaController.java`: REST controller that handles the `/` endpoint. 🌐
+- `src/main/resources/application.properties`: Configuration file for the application. ⚙️
 
 ## License 📄
 
