@@ -25,14 +25,14 @@ To run this project, you need to have the following installed:
 2. Navigate to the project folder:
 
    ```bash
-   cd holamundo-java
+   cd CuartaPagina
    ```
 
 3. Compile and run the project using the following commands:
 
    ```bash
-   javac HolaMundo.java
-   java HolaMundo
+   javac CuartaPagina.java
+   java CuartaPagina
    ```
 
    This will print "Hello World" to the console. 🖥️
